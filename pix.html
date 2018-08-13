@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- pix.html file before clean up v.1 -->
+<html>
+<head>
+	<title>dream of you</title>
+	<link rel="stylesheet" type="text/css" href="pix.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+</head>
+<body class ="day">
+	<div class="outer">
+		<div class="center-img">
+			<div class="overlay-cont">
+				<div class="overlay">
+				</div>
+			</div>
+			<div class= "top-bar-main">
+				<div class="icons">
+					<i class="fas fa-window-minimize"></i>   
+					<i class="far fa-window-restore"></i>   
+					<i class="fas fa-times"></i>   
+				</div>
+			</div>
+			<div class="start start-blink">
+					P L A Y 
+			</div>
+			<div class = "press-me"> 
+				<div id = "music">
+						
+				</div>
+				<div id = "writing">
+						
+				</div>
+				<div id = "draw">
+						
+				</div>
+				<div id = "heart">
+				
+				</div>
+			</div>
+		</div>
+		<div class="right-top window-close"> 
+			<div class= "top-bar">
+				<div class="icons">
+					<i class="fas fa-window-minimize"></i>   
+					<i class="far fa-window-restore"></i>   
+					<i id = "wone" class="fas fa-times close"></i>   
+				</div>
+			</div>
+			<iframe id = "sc" width="100" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/541223358&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+			<div id = "music-player">
+				<div id="play"><i class="fas fa-play"></i></div>
+		    	<div id="pause"><i class="fas fa-pause"></i></div>
+	    	</div>
+		</div>
+		<div class="right-bottom window-close"> 
+			<div class= "top-bar">
+				<div class="icons">
+					<i class="fas fa-window-minimize"></i>   
+					<i class="far fa-window-restore"></i>   
+					<i id ="wtwo" class="fas fa-times close"></i>   
+				</div>
+			</div>
+			<p id= "moon"><i class="fas fa-moon"></i></p>
+			<div id ="type-cont">
+				<div id = "to-write" class>
+					<p>
+					is this what you dreamed?
+					</p>
+					<div id ="yes-no">
+						<div id ="yes" class = "start-blink">
+							YES
+						</div>
+						<div id ="no">
+							NO
+						</div>
+					</div>
+				</div>
+				<div id ="type-outer">
+					<div id ="type-visibility" class = "type-visible">
+						<p id = "type-now">
+							(you can sleep now)
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="left-bottom window-close"> 
+			<div class= "top-bar">
+				<div class="icons">
+					<i class="fas fa-window-minimize"></i>   
+					<i class="far fa-window-restore"></i>   
+					<i id = "wthree" class="fas fa-times close"></i>   
+				</div>
+			</div>
+			<div class = "game">
+				<br>
+				<br>
+				<input type="text" placeholder= "#735ca3" id="user-input"><br>
+				<div id ="submit" class = "start-blink">
+					colour me in
+				</div>
+				<br>
+				<div id ="response"></div>
+			</div>
+		</div>
+		<div class="left-top window-close"> 
+			<div class= "top-bar">
+				<div class="icons">
+					<i class="fas fa-window-minimize"></i>   
+					<i class="far fa-window-restore"></i>   
+					<i id = "wfour" class="fas fa-times close"></i>   
+				</div>
+			</div>
+			<div class="credits">
+				<div id ="readme" class = "start-blink">
+					<br>
+					README
+				</div>
+				<p id ="astro"> </p>
+				<p id = "cred-text">Click play/pause for music (tyler burkhart). 
+				Input hex for colour change. 
+				All windows with red x's close.</p>
+			</div>
+		</div>
+	</div>
+	</div>
+
+<script type="text/javascript" src="http://w.soundcloud.com/player/api.js"></script>
+<script type="text/javascript" src="pix.js"></script>
+
+</body>
+</html>
