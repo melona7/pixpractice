@@ -18,6 +18,7 @@ var heart = document.querySelector("#heart");
 // windowOne variables
 var windowOne = document.querySelector(".right-top");
 var wone = document.querySelector("#wone");
+
 // from soundcloud
 var player = document.querySelector("#music-player");
 var widgetIframe = document.querySelector("#sc");
