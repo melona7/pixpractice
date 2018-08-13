@@ -19,8 +19,8 @@ var heart = document.querySelector("#heart");
 var windowOne = document.querySelector(".right-top");
 var wone = document.querySelector("#wone");
 // from soundcloud
-var player = document.querySelector("#music-player");
-var widget1 = SC.Widget("sc");
+var widgetIframe = document.querySelector("#sc");
+var widget1 = SC.Widget(widgetIframe);
 var play = document.querySelector("#play");
 var pause = document.querySelector("#pause");
 
